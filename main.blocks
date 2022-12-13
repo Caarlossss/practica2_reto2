@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="RpJh}EuB6uB|HIhju=2*" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="z*1v?U.8BPMYvdC`hdJn"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="1AO.lG7^mkbl4;!-]z48"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="2Z#mCjDZ%W@SaJkQw![x"></block></value><value name="B"><shadow type="math_number" id="9rxeeb$_|z@@m(0O@Z.3"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="8#$E4{R0HIMxdzbgtbF."><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_play_note" id="evmgh$4!UIXZQ`RD-2^h"><value name="note"><shadow type="device_note" id="h)VSiKl~]ZE;Ym@VUU:*"><field name="note">880</field></shadow></value><value name="duration"><shadow type="device_beat" id="|#v2CIY`_bd}xz=o?:5i"><field name="fraction">BeatFraction.Half</field></shadow></value><next><block type="device_clear_display" id="[S`_vKM_9g-}l:)_4d1)"><next><block type="device_pause" id="2zpCJJesF*K=w$0k:=mm"><value name="pause"><shadow type="timePicker" id="bi:ZX52)Y#-Of60Nh^8]"><field name="ms">200</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block></xml>
